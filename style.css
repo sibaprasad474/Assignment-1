@@ -9,6 +9,7 @@
     word-spacing: 2px;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    text-decoration: none;
 
 }
 h1{
@@ -45,6 +46,13 @@ body{
 }
 .navbar .lists a img{
     width: 1.8rem;
+}
+.items a{
+    color: black;
+}
+.items a:hover{
+    cursor: pointer;
+    color: red;
 }
 
 /* -------main container------- */
@@ -187,7 +195,7 @@ button{
     }
     .navbar{
         width: 100%;
-        min-height: 30vh;
+        min-height: 25vh;
         background-color:#ff1e179c;
         display: flex;
         flex-direction: column;
@@ -278,7 +286,7 @@ button{
         height: 75%;
         justify-content: center;
         align-items: center;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         flex-direction: column;
     }
     .banner{
