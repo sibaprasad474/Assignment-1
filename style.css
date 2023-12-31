@@ -345,7 +345,6 @@ button {
 
 
 /* Large screens (desktops) */
-@media only screen and (min-width: 1025px) {
+/* @media only screen and (min-width: 1025px) {
 
-    /* Add more styles for large screens as needed */
-}
+} */
